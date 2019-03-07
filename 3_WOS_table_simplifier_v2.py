@@ -142,10 +142,8 @@ def Simple_WOS_table_maker(table_file_name, output_table):
 
 	### This loop reads a comma-separated table file line by line.
 	### For each line, only a certain amount of data is transcribed in the output file :
-	### the document type, the language, the publisher, the year of publication, the DOI,
-	### the WOS accession number, the research areas, the author names, the title of the publication,
-	### the author keywords, the keywords plus (defined by WOS), the abstract
-	### and the address of the corresponding author(s).
+	### the WOS accession number, the language, the document type, the publication year,
+	### the corresponding author(s) nationality(ies), and the country(ies) where the fieldwork was done.	
 	### To extract the nationality of the corresponding author(s) from their address,
 	### a research of the country names contained in the "WOS_country_v3.txt" is made.
 	### In addition it performs for each line a research of some keywords associated with
