@@ -1,0 +1,54 @@
+Albania,Albania
+Albanian,Albania
+Algeria,Algeria
+Algerian,Algeria
+Bosnia Herzegovina,Bosnia and Herzegovina
+Bosnia & Herzegovina,Bosnia and Herzegovina
+Bosnia and Herzegovina,Bosnia and Herzegovina
+Catalonia,Spain
+Croatia,Croatia
+Croatian,Croatia
+Cyprus,Cyprus
+Cypriot,Cyprus
+Egypt,Egypt
+Egyptian,Egypt
+France,France
+French,France
+Gaza Strip,Palestine
+Palestinian,Palestine
+Greece,Greece
+Greek,Greece
+Israel,Israel
+Israeli,Israel
+Italy,Italy
+Italian,Italy
+Lebanon,Lebanon
+Lebanese,Lebanon
+Libya,Libya
+Libyan,Libya
+Malta,Malta
+Maltese,Malta
+Montenegro,Montenegro
+Montenegrin,Montenegro
+Morocco,Morocco
+Moroccan,Morocco
+Palestine,Palestine
+Portugal,Portugal
+Portuguese,Portugal
+Slovenia,Slovenia
+Slovenian,Slovenia
+Slovene,Slovenia
+Spain,Spain
+Spanish,Spain
+Syria,Syria
+Syrian,Syria
+Tunisia,Tunisia
+Tunisian,Tunisia
+Turkey,Turkey
+Turkish,Turkey
+Valencia,Spain
+West Bank,Palestine
+Macedonia,Macedonia
+Macedonian,Macedonia
+Yugoslavia,Yugoslavia
+Yugoslavian,Yugoslavia
