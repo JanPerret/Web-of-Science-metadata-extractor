@@ -39,6 +39,8 @@ table_file_name = str(input("Enter your comma-separated table file name (includi
 
 def Simple_WOS_table_maker(table_file_name, output_table):
 	fin = open(table_file_name, "r")
+	
+	# loading the country name list
 	country_index = open("WOS_country_v3.txt", "r")
 	country_names = []
 	country_finals = []
@@ -51,6 +53,7 @@ def Simple_WOS_table_maker(table_file_name, output_table):
 	address_search = ""
 	name_final = ""
 
+	# loading the mediterranean country name list
 	fw_country_index = open("WOS_mediterranean_country_v4.txt", "r")
 	fw_country_names = []
 	fw_country_finals = []
@@ -145,7 +148,11 @@ def Simple_WOS_table_maker(table_file_name, output_table):
 	### and the address of the corresponding author(s).
 	### To extract the nationality of the corresponding author(s) from their address,
 	### a research of the country names contained in the "WOS_country_v3.txt" is made.
-	first_line = fin.readline() # to not take into account the first line with the columns headerds
+	### In addition it performs for each line a research of some keywords associated with
+	### specific taxa to affiliate the publications to the taxa their talking about.
+	### For amphibians, reptiles and birds, a species name list (which could not be communicated)
+	### is loaded, and for the other taxa the used keywords are shown in the script below.
+	first_line = fin.readline() # to not take into account the first line with the columns headers
 	for line in fin:
 		line_cnt += 1
 		line_list = line.split(",")
